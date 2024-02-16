@@ -37,22 +37,22 @@ ebola.app <- shinyApp(
       
     ),
     mainPanel(
-      tabsetPanel(
-        
-        #tabPanel("Two-Patch Model for EBOLA",
-        #         withMathJax(
-        
-        #          helpText("This is a Two-Patch ODE EBOLA Model")
-        #         )
-        #),
-        tabPanel("PATCH A", plotOutput("plot1"),
-                 helpText("This is a Two-Patch ODE EBOLA Model. Here you can see PATCH A.")),
-        tabPanel("PATCH B", plotOutput("plot2"),
-                 helpText("This is a Two-Patch ODE EBOLA Model. Here you can see PATCH B."))
-        
-      )
-    )
-  ),
+          tabsetPanel(
+            
+            tabPanel("Two-Patch Model for EBOLA",
+            #         withMathJax(
+
+             #          helpText("This is a Two-Patch ODE EBOLA Model")
+            #         )
+            #),
+              tabPanel("", plotOutput("plot1"),
+                       helpText("")),
+              tabPanel("", plotOutput("plot2"),
+              helpText(""))
+
+          ))
+        )
+    ),
   
   # This creates the 'behind the scenes' code (Server)
   server <- function(input, output) {
