@@ -1,7 +1,12 @@
-library(shiny)
+#install.packages(deSolve)
 library(deSolve)
+#install.packages(ggplot2)
 library(ggplot2)
+#install.packages(dplyr)
 library(dplyr)
+#install.packages(shiny)
+library(shiny)
+
 
 ebola.app <- shinyApp(
   # This creates the User Interface (UI)
