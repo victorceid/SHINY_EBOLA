@@ -1,0 +1,12 @@
+name: EBOLA_TWO_PATCH_MODEL
+title: EBOLA_TWO_PATCH_MODEL
+username: ceid
+account: ceid
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 11461021
+bundleId: 8359857
+url: https://ceid.shinyapps.io/EBOLA_TWO_PATCH_MODEL/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
